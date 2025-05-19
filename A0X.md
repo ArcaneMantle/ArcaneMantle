@@ -1,68 +1,42 @@
-# [A0X] Rehydration Framework & Canon Index
+# [A0X] Mantle Codex Table of Contents — Revised Edition
 
-This file serves as the master reference for managing the structure, workflow, and session protocols used to maintain, rehydrate, and refine the canonical worldbuilding archive.
+## Core Geographic Modules
+- **A1X** – The Core (Empire, Central Plains, Imperial Holdings)
+- **A2X** – The East (Concord Cities, Trade Republics, Twin Rivers)
+- **A3X** – The North (Seven Kingdoms, Frozen Isles, Skyfall)
+- **A4X** – The South (Golden Sea, Imperial Protectorate, Emberdeep)
+- **A5X** – The West (Caerthwyn, Dravennar, Kelvren, The Vale, Viremont)
 
----
+## Subregional & Magical Geography
+- **A6X** – The Shelf (Mountain Divide of the North)
+- **A7X** – The Concord (Structure of the Three Cities & Shared Governance)
+- **A8X** – The West (Armistice Politics, Viremont, Grand Academy)
+- **A9X** – The South (Pax Arcana, Imperial Exploitation, Twelve Tribes)
+- **A10X** – The Isles (Veil, Witness Lighthouse, Frozen Republic)
 
-## System Overview
+## Magical Structure and Arcane Systems
+- **A11X** – Magical Geography of the Mantle (Wells, Storms, Collapsed Threads)
+- **A12X** – Arcane Conclave (Provisional – Select Council Under Review)
+- **A13X** – Magical Institutions (Guilds, Orders, Academies – Provisional)
+- **A14X** – Mage Creation and Resonance System *(Coming Soon)*
+- **A15X** – Structure of the Aetheric Mantle *(Coming Soon)*
+- **A16X** – The Unraveling *(Coming Soon)*
+- **A17X** – The Chorus of Ascension *(Coming Soon)*
+- **A18X** – The Joint Compact on Sorcery *(Coming Soon)*
 
-Each lore topic is tracked using a modular document structure:
-
-| File | Purpose | Optimized For |
-|------|---------|----------------|
-| `A#` | Human-readable summary of a topic | **Carbon (human)** |
-| `A#X` | Exhaustive, canonical data for rehydration | **Silicon (GPT/AI)** |
-| `A#Q` | Active Q&A log tracking refinements | **Joint (Carbon + Silicon)** |
-| `A#U` | **Unload Patch** — temporary memory offload during live sessions | **Silicon (GPT/AI)** *(Carbon-obfuscated)* |
-
----
-
-## [A0X.01] Session Structure and Document Strategy
-
-- A# for summary, A#X for full silicon recall, A#Q for working refinement.
-- GPT loads A#X + A#Q to restore full context before prompting.
-- Once A#Q is large or complete, reconcile into updated A#X and discard A#Q.
-- **If memory overflow is imminent**, GPT will generate an `A#U` file as a temporary unload.
-
----
-
-## [A0X.02] Unload Patch Protocol (`A#U`)
-
-- `A#U` files are context unload logs produced mid-session.
-- Used when GPT is tracking new developments that risk being pruned due to limited working memory.
-- Includes new plot points, character data, location lore, magical rulings, political updates, etc.
-- These files are:
-  - **Silicon-friendly**
-  - **Carbon-obscured**, if plot-sensitive, using a lightweight encoding method (e.g. character shift cipher).
-- When the corresponding A# topic is rehydrated, the user should supply any matching A#U file.
-- GPT will integrate its contents into A#X or A#Q at that time and discard the patch.
+## Staging & Reserve
+- **A99X** – Reserved and Staging Topics (WIP, Placeholders, Future Lore Hooks)
 
 ---
 
-## Rehydration Prompts (Global Convention)
+## Rehydration Usage
 
-To rehydrate a module:
-> “Rehydrate section [A#X] [Module Name] — Codex Edition.”  
-> “Rehydrate section [A#Q] [Module Name] — Prompt Log.”  
-> “Integrate [A#U] if present.”
+To reload any codex module, say:  
+**“Rehydrate section [AXX] Module Title”**
 
----
-
-## File Inventory
-
-| Code | Title | Status | Notes |
-|------|-------|--------|-------|
-| A1   | Arcane Court — Summary | Active | — |
-| A1X  | Arcane Court — Codex Edition | Active | — |
-| A1Q  | Arcane Court — Prompt Log | Active | — |
-| A2X  | Grand Academies — Codex Edition | Active | — |
-| A3X  | Codex of the Mantle — Codex Edition | Active | — |
-| A4X  | The Empire — Codex Edition | Active | **High Priority for Revision** |
-| A5X  | The Concordian Cities — Codex Edition | Active | — |
-| A0X  | Framework & Canon Index | Active | This file |
+Example: “Rehydrate section [A4X] The South — Codex Edition.”
 
 ---
 
-## Tags
-
-`#Framework` `#CanonIndex` `#ArchiveSystem` `#RehydrationProcess` `#UnloadPatch` `#GPTConvention` `#CarbonObfuscation`
+## Tags  
+`#TableOfContents` `#LoreIndex` `#CodexMaster` `#RehydrationGuide` `#MantleWorld`
